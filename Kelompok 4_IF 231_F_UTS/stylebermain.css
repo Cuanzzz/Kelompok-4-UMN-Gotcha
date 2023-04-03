@@ -1,0 +1,266 @@
+@font-face {
+    font-family:"mortal";
+    src: url(Font/IMMORTAL.ttf) format('truetype');
+}
+
+body 
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: mortal;
+}
+
+#character {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#character img
+{
+    width: 300px;
+    height: 300px;
+}
+
+#kotak
+{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin: 10px 400px;
+    padding-top: 10px;
+}
+
+#kotakhp {
+    display: flex;
+    justify-content:center;
+}
+
+#health-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#health {
+    background-color: #4CAF50;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#hunger-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#hunger {
+    background-color: burlywood;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#sleep-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    margin-left: 100px;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#sleep {
+    background-color: lightblue;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#happy-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    margin-left: 100px;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#happy {
+    background-color: lightpink;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#kotakindikator
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 130px;
+}
+
+#level
+{
+    margin-top: 10px;
+}
+
+#waktugame
+{
+    margin-top: 10px;
+}
+
+#selamat
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+#untuktombol
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#tombol {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightgray; 
+}
+
+#tombol2 {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightsalmon;
+    background-color: lightgray; 
+
+}
+
+#tombol3 {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightsalmon;
+    background-color: lightgray; 
+}
+
+#tombol4 {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightsalmon;
+    background-color: lightgray; 
+
+}
+
+#atas
+{
+    position: fixed;
+    bottom: 100px;
+    right: 130px;
+    margin-bottom: 50px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+#atas img
+{
+    width: 40px;
+    height: 40px;
+}
+
+#kiri
+{
+    position: fixed;
+    bottom: 105px;
+    right: 130px;
+    margin-right: 50px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+#kiri img
+{    
+    width: 40px;
+    height: 40px;
+}
+
+#kanan
+{
+    position: fixed;
+    bottom: 105px;
+    right: 82px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+#kanan img
+{
+    width: 40px;
+    height: 40px;
+}
+
+#bawah
+{
+    position: fixed;
+    bottom: 61px;
+    right: 130px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+#bawah img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.food {
+    background-image: url("Images/star_FILL0_wght400_GRAD0_opsz48.png");
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    z-index: 1;
+  }
+  

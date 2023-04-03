@@ -1,0 +1,22 @@
+#logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    margin-top: 250px;
+    color: gray;
+}
+
+#tombol {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 60px;
+    padding: 5px 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+body
+{
+   
+    background: url('Images/bk.jpg') no-repeat;
+    background-size: cover;
+}

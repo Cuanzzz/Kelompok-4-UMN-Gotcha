@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>  
+    <title>UMN Gotcha</title>
+    <link rel="stylesheet" href="stylebermain.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body onload="loadStatusBars()">
+    <div id="bungkus">
+        <div id="kotak">
+            <div id="kotakhp">
+                <div id="darah-hunger">
+                    <img src="Images/favorite_FILL1_wght400_GRAD0_opsz48.png" style="width:20px; height:20px;"/>
+                    <div id="health-bar">
+                        <div id="health"></div>
+                    </div>
+
+                    <br>
+
+                    <img src="Images/lunch_dining_FILL1_wght400_GRAD0_opsz48.png" style="width:20px; height:20px;"/>
+                    <div id="hunger-bar">
+                        <div id="hunger"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="Images/nightlight_FILL1_wght400_GRAD0_opsz48.png" style="width:20px; height:20px; margin-left: 100px;"/>
+                    <div id="sleep-bar">
+                        <div id="sleep"></div>
+                    </div>
+
+                    <br>
+
+                    <img src="Images/mood_FILL1_wght400_GRAD0_opsz48.png" style="width:20px; height:20px; margin-left: 100px"/>
+                    <div id="happy-bar">
+                        <div id="happy"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="kotakindikator">
+
+                <div></div>
+
+                <div id="waktugame"></div>
+            </div>
+
+            <div id="selamat">Playing</div>
+
+            <div id="character">
+                <!-- Tempat untuk menampilkan gambar karakter yang dipilih -->
+            </div>
+
+
+                <div id="food"></div>
+
+            <div id="untuktombol">
+                <div>
+                    <div>
+                        <button id="tombol" onclick="addHealth()">Obat</button>
+                    </div>
+
+                    <div>
+                        <button id="tombol2" onclick="addHunger()">Makan</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <button id="tombol3" onclick="addSleep()">Tidur</button>
+                    </div>
+
+                    <div>
+                        <button id="tombol4" onclick="window.location.href='index.html'">Main</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <button id="atas" onclick="moveCharacter('atas')"><img src="Images/arrow_upward_FILL0_wght100_GRAD0_opsz48.png" /></button>
+            </div>
+
+            <div>
+                <button id="kiri" onclick="moveCharacter('kiri')"><img src="Images/arrow_back_FILL0_wght100_GRAD0_opsz48.png" /></button>
+                <button id="kanan" onclick="moveCharacter('kanan')"><img src="Images/arrow_forward_FILL0_wght100_GRAD0_opsz48.png" /></button>
+            </div>
+
+            <div>
+                <button id="bawah" onclick="moveCharacter('bawah')"><img src="Images/arrow_downward_FILL0_wght100_GRAD0_opsz48.png" /></button>
+            </div>
+
+            <script src="bermain.js"> </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </div>
+</body>

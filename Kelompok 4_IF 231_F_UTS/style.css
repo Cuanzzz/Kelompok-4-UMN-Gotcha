@@ -1,0 +1,197 @@
+@font-face {
+    font-family:"mortal";
+    src: url(Font/IMMORTAL.ttf) format('truetype');
+}
+
+body {
+    background-image: url('Images/game_background_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: mortal;
+}
+
+#character {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#character img
+{
+    width: 300px;
+    height: 300px;
+    margin-top: 270px;
+    margin-left: 620px;
+}
+
+#kotak
+{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin: 10px 400px;
+    padding-top: 10px;
+}
+
+#kotakhp {
+    display: flex;
+    justify-content:center;
+}
+
+#health-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#health {
+    background-color: #4CAF50;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#hunger-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#hunger {
+    background-color: burlywood;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#sleep-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    margin-left: 100px;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#sleep {
+    background-color: lightblue;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#happy-bar {
+    background-color: #ddd;
+    height: 20px;
+    position: relative;
+    margin-left: 100px;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#happy {
+    background-color: lightpink;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+
+#kotakindikator
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 130px;
+}
+
+#level
+{
+    margin-top: 10px;
+}
+
+#waktugame
+{
+    margin-top: 10px;
+}
+
+#selamat
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+#untuktombol
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#tombol {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightgray;
+}
+
+#tombol2 {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightgray;
+}
+
+#tombol3 {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightgray;
+}
+
+#tombol4 {
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: mortal;
+    background-color: lightgray;
+}
+
+#ShowGif img {
+    width: 50px;
+    height: 50px;
+}
